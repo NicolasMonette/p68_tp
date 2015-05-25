@@ -1,274 +1,286 @@
-h2 {
-    font-size: 3em;
-    text-shadow: 3px 3px 3px black;
-}
-
-#logo1 {
-    width: 42%;
-    display: inline-block;
-}
-
-#logo2 {
-    width: 42%;
-}
-
-#logo3 {
-    width: 48%;
-}
-
-#logo4 {
-    width: 40%;
-}
-
-#section1 {
-
-    display: inline-block;
-    text-align: center;
-    background-color: lightgrey;
-    padding-left: 10%;
-    padding-right: 10%;
-}
-
-#section2 {
-
-    display: inline-block;
-}
-
-#section2 h2 {
-    text-align: center;
-}
-
-#section3 {
-
-    display: inline-block;
-    background-color: lightgrey;
-}
-
-#section3 h2 {
-    text-align: center;
-}
-
-#section4 {
-
-    text-align: center;
-}
-
-#section5 {
-    background-color: lightgrey;
-    text-align: center;
-}
-
-#anaheim {
-    width: 48%;
-    height: 286px;
-    float: left;
-    display: inline-block;
-}
-
-#anaheim div {
-    position: relative;
-    bottom: -30%;
-}
-
-#form2 {
-    padding-top: 3%;
-}
-
-#chicago {
-    width: 48%;
-    display: inline-block;
-    float: left;
-}
-
-#newyork {
-    width: 48%;
-    display: inline-block;
-    float: left;
-}
-
-#tampabay {;
-    width: 48%;
-    float: left;
-    display: inline-block;
-}
-
-.description {
-    width: 48%;
-
-    display: inline-block;
-    position: relative;
-
-}
-
-#gallerie {
-    background-color: black;
-    border: 4px solid black;
-    padding-top: 3%;
-}
-
-#g1:hover {
-    width: 29%;
-}
-
-#g2:hover {
-    width: 29%;
-}
-
-#g3:hover {
-    width: 25%;
-}
-
-#g4:hover {
-    width: 29%;
-}
-
-#g1 {
-    width: 24%;
-}
-
-#g2 {
-    width: 24%;
-}
-
-#g3 {
-    width: 20%;
-}
-
-#g4 {
-    width: 24%;
-}
-
-#nav ul {
-    list-style-type: none;
-}
-
-#nav {
-    text-align: center;
-    background-color: black;
-    position: fixed;
-    width: 100%;
-    height: 65px;
-    padding-bottom: 3%;
-    visibility: 50%;
-}
-
-#wrapper {
-    background-color: navajowhite;
-}
-
-#nav li {
-    display: inline-block;
-    padding: 2%;
-    font-size: 1.5em;
-}
-
-#nav a {
-    text-decoration: none;
-    color: yellow;
-}
-
-#videodiv {
-    text-align: center;
-}
-.pub1 {
-    font-size: 1.5em;
-    animation-name:anim1;
-    animation-duration: 2s;
-    animation-iteration-count:infinite;
-    -webkit-animation-name:anim1;
-    -webkit-animation-duration: 2s;
-    -webkit-animation-iteration-count:infinite;
-    text-align: center;
-
-}
-.pub2 {
-
-    text-align: center;
-    font-size: 1.5em;
-    position:relative;
-    bottom:367px;
-    animation-name:anim2;
-    animation-duration: 2s;
-    animation-iteration-count:infinite;
-    -webkit-animation-name:anim2;
-    -webkit-animation-duration: 2s;
-    -webkit-animation-iteration-count:infinite;
-}
-.pub1 img{
-    width:45%;
-}
-.pub2 img{
-
-}
-@-webkit-keyframes anim1 {
-    0%{
-        top:0;
-        left:0;
+@media screen and (max-width: 10000px) {
+    h2 {
+        font-size: 3em;
+        text-shadow: 3px 3px 3px black;
     }
-    50%{
-        top:200px;
-        left:100px;
+
+    #logo1 {
+        width: 42%;
+        display: inline-block;
     }
-    100%{
-        left:300px;
-        top:200px;
+
+    #logo2 {
+        width: 42%;
+    }
+
+    #logo3 {
+        width: 48%;
+    }
+
+    #logo4 {
+        width: 40%;
+    }
+
+    #section1 {
+
+        display: inline-block;
+        text-align: center;
+        background-color: lightgrey;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+    #section2 {
+
+        display: inline-block;
+    }
+
+    #section2 h2 {
+        text-align: center;
+    }
+
+    #section3 {
+
+        display: inline-block;
+        background-color: lightgrey;
+    }
+
+    #section3 h2 {
+        text-align: center;
+    }
+
+    #section4 {
+
+        text-align: center;
+    }
+
+    #section5 {
+        background-color: lightgrey;
+        text-align: center;
+    }
+
+    #anaheim {
+        width: 48%;
+        height: 286px;
+        float: left;
+        display: inline-block;
+    }
+
+    #anaheim div {
+        position: relative;
+        bottom: -30%;
+    }
+
+    #form2 {
+        padding-top: 3%;
+    }
+
+    #chicago {
+        width: 48%;
+        display: inline-block;
+        float: left;
+    }
+
+    #newyork {
+        width: 48%;
+        display: inline-block;
+        float: left;
+    }
+
+    #tampabay {;
+        width: 48%;
+        float: left;
+        display: inline-block;
+    }
+
+    .description {
+        width: 48%;
+
+        display: inline-block;
+        position: relative;
+
+    }
+
+    #gallerie {
+        background-color: black;
+        border: 4px solid black;
+        padding-top: 3%;
+    }
+
+    #g1:hover {
+        width: 29%;
+    }
+
+    #g2:hover {
+        width: 29%;
+    }
+
+    #g3:hover {
+        width: 25%;
+    }
+
+    #g4:hover {
+        width: 29%;
+    }
+
+    #g1 {
+        width: 24%;
+    }
+
+    #g2 {
+        width: 24%;
+    }
+
+    #g3 {
+        width: 20%;
+    }
+
+    #g4 {
+        width: 24%;
+    }
+
+    #nav ul {
+        list-style-type: none;
+    }
+
+    #nav {
+        text-align: center;
+        background-color: black;
+        position: fixed;
+        width: 100%;
+        height: 65px;
+        padding-bottom: 3%;
+        visibility: 50%;
+    }
+
+    #wrapper {
+        background-color: navajowhite;
+    }
+
+    #nav li {
+        display: inline-block;
+        padding: 2%;
+        font-size: 1.5em;
+    }
+
+    #nav a {
+        text-decoration: none;
+        color: yellow;
+    }
+
+    #videodiv {
+        text-align: center;
+    }
+
+    .pub1 {
+        font-size: 1.5em;
+        animation-name: anim1;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+        -webkit-animation-name: anim1;
+        -webkit-animation-duration: 2s;
+        -webkit-animation-iteration-count: infinite;
+        text-align: center;
+
+    }
+
+    .pub2 {
+
+        text-align: center;
+        font-size: 1.5em;
+        position: relative;
+        bottom: 367px;
+        animation-name: anim2;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+        -webkit-animation-name: anim2;
+        -webkit-animation-duration: 2s;
+        -webkit-animation-iteration-count: infinite;
+    }
+
+    .pub1 img {
+        width: 45%;
+    }
+
+    .pub2 img {
+
+    }
+
+    @-webkit-keyframes anim1 {
+        0% {
+            top: 0;
+            left: 0;
+        }
+        50% {
+            top: 200px;
+            left: 100px;
+        }
+        100% {
+            left: 300px;
+            top: 200px;
+        }
+    }
+    @keyframes anim1 {
+        0% {
+            top: 0;
+            left: 0;
+        }
+        50% {
+            top: 200px;
+            left: 100px;
+        }
+        100% {
+            left: 300px;
+            top: 200px;
+        }
+    }
+    @-webkit-keyframes anim2 {
+        0% {
+            opacity: 0;
+        }
+        50% {
+            opacity: 1;
+        }
+        100% {
+            opacity: 0;
+        }
+    }
+    @keyframes anim2 {
+        0% {
+            opacity: 0;
+        }
+        50% {
+            opacity: 1;
+        }
+        100% {
+            opacity: 0;
+        }
+    }
+    @-webkit-keyframes anim1 {
+        0% {
+            opacity: 1;
+        }
+        50% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 1;
+        }
+    }
+    @keyframes anim1 {
+        0% {
+            opacity: 1;
+        }
+        50% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 1;
+        }
     }
 }
-@keyframes anim1 {
-    0%{
-        top:0;
-        left:0;
-    }
-    50%{
-        top:200px;
-        left:100px;
-    }
-    100%{
-        left:300px;
-        top:200px;
-    }
+@media screen and (max-width: 400px) {
+.pub{
+    display:none;
 }
-@-webkit-keyframes anim2 {
-    0%{
-        opacity:0;
-    }
-    50%{
-        opacity:1;
-    }
-    100%{
-        opacity:0;
-    }
-}
-@keyframes anim2 {
-    0%{
-        opacity:0;
-    }
-    50%{
-        opacity:1;
-    }
-    100%{
-        opacity:0;
-    }
-}
-@-webkit-keyframes anim1 {
-    0%{
-        opacity:1;
-    }
-    50%{
-        opacity:0;
-    }
-    100%{
-        opacity:1;
-    }
-}
-@keyframes anim1 {
-    0%{
-        opacity:1;
-    }
-    50%{
-        opacity:0;
-    }
-    100%{
-        opacity:1;
-    }
 }
