@@ -170,3 +170,105 @@ h2 {
 #videodiv {
     text-align: center;
 }
+.pub1 {
+    font-size: 1.5em;
+    animation-name:anim1;
+    animation-duration: 2s;
+    animation-iteration-count:infinite;
+    -webkit-animation-name:anim1;
+    -webkit-animation-duration: 2s;
+    -webkit-animation-iteration-count:infinite;
+    text-align: center;
+
+}
+.pub2 {
+
+    text-align: center;
+    font-size: 1.5em;
+    position:relative;
+    bottom:367px;
+    animation-name:anim2;
+    animation-duration: 2s;
+    animation-iteration-count:infinite;
+    -webkit-animation-name:anim2;
+    -webkit-animation-duration: 2s;
+    -webkit-animation-iteration-count:infinite;
+}
+.pub1 img{
+    width:45%;
+}
+.pub2 img{
+
+}
+@-webkit-keyframes anim1 {
+    0%{
+        top:0;
+        left:0;
+    }
+    50%{
+        top:200px;
+        left:100px;
+    }
+    100%{
+        left:300px;
+        top:200px;
+    }
+}
+@keyframes anim1 {
+    0%{
+        top:0;
+        left:0;
+    }
+    50%{
+        top:200px;
+        left:100px;
+    }
+    100%{
+        left:300px;
+        top:200px;
+    }
+}
+@-webkit-keyframes anim2 {
+    0%{
+        opacity:0;
+    }
+    50%{
+        opacity:1;
+    }
+    100%{
+        opacity:0;
+    }
+}
+@keyframes anim2 {
+    0%{
+        opacity:0;
+    }
+    50%{
+        opacity:1;
+    }
+    100%{
+        opacity:0;
+    }
+}
+@-webkit-keyframes anim1 {
+    0%{
+        opacity:1;
+    }
+    50%{
+        opacity:0;
+    }
+    100%{
+        opacity:1;
+    }
+}
+@keyframes anim1 {
+    0%{
+        opacity:1;
+    }
+    50%{
+        opacity:0;
+    }
+    100%{
+        opacity:1;
+    }
+}
